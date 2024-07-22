@@ -1,0 +1,41 @@
+{
+  "name": "testes-mutantes",
+  "version": "0.0.97",
+  "description": "Testes mutantes são testes unitários que não possuem um cenário bem pensado. Quanto sofrem mutações, não conseguem garantir a qualidade esperada e falham.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:mutants": "npx stryker run",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tchars/TestesMutantes.git"
+  },
+  "keywords": [
+    "testes",
+    "mutantes",
+    "unitários",
+    "jest"
+  ],
+  "author": "Charles Jamil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tchars/TestesMutantes"
+  },
+  "homepage": "https://github.com/tchars/TestesMutantes#readme",
+  "dependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.14.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@stryker-mutator/core": "^8.2.6",
+    "@stryker-mutator/jest-runner": "^8.2.6",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.3"
+  }
+}

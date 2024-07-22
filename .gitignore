@@ -1,0 +1,22 @@
+# Logs
+logs
+*.log
+
+# Dependências
+node_modules/
+
+# Arquivos gerados pelo build
+dist/
+build/
+
+# Arquivos de ambiente
+.env
+
+# Arquivos de cache
+.cache/
+
+# Arquivos de configuração
+config.js
+
+# Arquivos de backup
+*.bak
