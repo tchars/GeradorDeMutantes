@@ -1,6 +1,7 @@
 # Artigo
 
-[Ler artigo completo](https://www.linkedin.com/pulse/testes-mutantes-garanta-que-seus-est%C3%A3o-testando-o-m%C3%ADnimo-jamil-eueff)
+[Ler artigo completo](https://www.linkedin.com/pulse/testes-mutantes-garanta-que-seus-est%25C3%25A3o-testando-o-m%25C3%25ADnimo-jamil-eueff/?trackingId=WQJ6u3DpRDGIKx6JRRC5Pw%3D%3D)
+
 
 # O que é?
 
